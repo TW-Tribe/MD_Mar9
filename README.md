@@ -1,11 +1,14 @@
 # MD_Mar9
 This is my new file.
-# Markdown
-Learning Markdown together
 
+- [MD\_Mar9](#md_mar9)
 - [Markdown](#markdown)
 - [Lesson 1: Introduction](#lesson-1-introduction)
 - [Lesson 2: Creating a Sample Document](#lesson-2-creating-a-sample-document)
+
+
+# Markdown
+Learning Markdown together
 
 
 # Lesson 1: Introduction
@@ -26,6 +29,7 @@ Click on the following to learn:
 7. [Hyperlinks](hyperlinks.md)
 8. Adding for test
 9. Again testing
+- [MD\_Mar9](#md_mar9)
 - [Markdown](#markdown)
 - [Lesson 1: Introduction](#lesson-1-introduction)
 - [Lesson 2: Creating a Sample Document](#lesson-2-creating-a-sample-document)
@@ -38,7 +42,43 @@ WhatsApp (officially WhatsApp Messenger) is a free communication app which allow
 WhatsApp sounds like what’s Up? With App combined. The founders of this App are Brian Acton and Jan Koum, former employees of Yahoo. WhatsApp came into our lives in February 2009 to be the most popular messaging App, an alternative to SMS, with more than a million users. The App uses the internet to send messages and images, allowing family and friends to stay in touch with each other, anytime and anywhere. The App has features like group chatting, voice message and location sharing, while bringing all categories of people into the world of WhatsApp.
 WhatsApp is the largest online messenger app in the world, owned by Facebook. In 2014, Facebook acquired WhatsApp, and by 2017, it reached 1 billion users. WhatsApp is a messenger app for smartphones, laptops, and PCs. It uses the internet to send text messages, images, audio, and video. WhatsApp has awesome features such as group chatting, voice messages, new communities, and location sharing. 
 WhatsApp is free to get. If the user doesn't have an internet connection, they can choose to use cellular data. 
- 
+
+
+<img src="Guj_Jun_14.png.jpg" width="300" height="200" />
+
+![](/Images/Guj_Jun_14.png)
+
+
+
+
+
+<table class="table table-striped">
+<caption>Caption for this Table</caption>
+<thead class="thead-dark">
+<tr>
+    <th width="30%">Property</th>
+    <th width="70%">Description</th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td>Topic1 </td>
+    <td>Topic2
+        <ul>
+        <li>Bullet item</li>
+        <li>Bullet item</li>
+        </ul>
+        </td>
+    </tr>
+<tr>
+    <td>TopicA</td>
+    <td>TopicB</td>
+    </tr>
+</tbody>
+</table>
+
+
+
 How to use the App
 
 To use WhatsApp, User  needs a Smartphone or Tablet with SIM and internet connection. WhatsApp is available to download on Google Play Store and Apple App Store, for users with Android and iOS devices respectively. We need a phone number to create an account. When we upgrade our phone, we can transfer the contacts from the old to the new phone without losing the data.
