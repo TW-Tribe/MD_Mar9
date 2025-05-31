@@ -8,7 +8,7 @@ This is my new file.
 
 
 # Markdown
-Learning Markdown together with other participants. Test
+Learning Markdown together with other participants. 
 
 
 # Lesson 1: Introduction
