@@ -8,7 +8,7 @@ This is my new file.
 
 
 # Markdown
-Learning Markdown together with other participants.
+Learning Markdown together with other participants. Test
 
 
 # Lesson 1: Introduction
@@ -45,9 +45,12 @@ WhatsApp is free to get. If the user doesn't have an internet connection, they c
 
 
 
-<img src="/Images/Guj_Jun_14.png" width="300" height="200" />
+<img src="./Images/Guj_Jun_14.png" width="300" height="200" />
 
-<img src="/Images/Guj_Jun_14.png" width="300" height="200" />
+<img src="./Images/Guj_Jun_14.png" width="400" height="250" />
+
+
+> Note: This is a warning.
 
 
 
