@@ -44,12 +44,15 @@ WhatsApp is the largest online messenger app in the world, owned by Facebook. In
 WhatsApp is free to get. If the user doesn't have an internet connection, they can choose to use cellular data. 
 
 
-<img src="Guj_Jun_14.png.jpg" width="300" height="200" />
+
+<img src="/Images/Guj_Jun_14.png" width="300" height="200" />
+
+<img src="/Images/Guj_Jun_14.png" width="300" height="200" />
+
+
+
 
 ![](/Images/Guj_Jun_14.png)
-
-
-
 
 
 <table class="table table-striped">
