@@ -1,3 +1,5 @@
+[Home](index.md) | [About](about.md) | [Projects](projects.md)
+
 ---
 title: Welcome to My Site
 theme: cayman
