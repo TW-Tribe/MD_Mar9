@@ -1,6 +1,6 @@
 ---
 title: Welcome to My Site
-theme: minima
+theme: cayman
 ---
 
 # Hello, world! 👋
