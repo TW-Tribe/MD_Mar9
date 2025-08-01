@@ -6,6 +6,17 @@ theme: cayman
 ---
 
 # Hello, world! 👋
+---
+layout: default
+title: Home
+---
+
+# Hi, I'm [Your Name]
+
+A technical writer and blogger who creates beautiful, efficient websites. Explore my resume, portfolio, and freelance services using the menu above.
+
+
+---------------------Rough content--------------------------------
 
 This is my GitHub Pages site built with **Markdown** and a **Jekyll theme**.
 
