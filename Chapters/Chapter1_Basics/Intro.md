@@ -1,3 +1,5 @@
+<button data-help-id="chapter:intro" class="help-btn">Help about this lesson</button>
+
 ```markdown
 # MD_Mar9
 This is my new file.

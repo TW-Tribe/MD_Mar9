@@ -6,6 +6,8 @@ permalink: /freelance/
 
 ## Freelance Services
 
+<button data-help-id="chapter:freelance" class="help-btn">Help about freelance services</button>
+
 🛠️ Technical Writing Programs  
 📈 Website content 
 🔧 AI tools

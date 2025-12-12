@@ -6,6 +6,8 @@ permalink: /portfolio/
 
 ## Portfolio
 
+<button data-help-id="chapter:portfolio" class="help-btn">Help about portfolio</button>
+
 ### Project: User Guide
 Built for Tech Writer's Tribe App.  
 🔗 [Live Demo](https://example.com)

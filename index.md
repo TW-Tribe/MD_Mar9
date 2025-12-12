@@ -16,9 +16,9 @@ title: Home
 
 A technical writer and blogger who creates beautiful, efficient websites. Explore my resume, portfolio, and freelance services using the menu above.
 
-- **Chapter 1 (Basics):** [Intro and Images](Chapters/Chapter1_Basics/Intro.md)
-- **Chapter 2 (Portfolio):** [Portfolio overview](Chapters/Chapter2_Portfolio/Portfolio.md)
-- **Chapter 3 (Topics):** [What is CSH links?](Chapters/Chapter3_Topics/What_is_CSH_links.md)
+- **Chapter 1 (Basics):** <a href="Chapters/Chapter1_Basics/Intro.md" data-help-id="chapter:intro">Intro and Images</a>
+- **Chapter 2 (Portfolio):** <a href="Chapters/Chapter2_Portfolio/Portfolio.md" data-help-id="chapter:portfolio">Portfolio overview</a>
+- **Chapter 3 (Topics):** <a href="Chapters/Chapter3_Topics/What_is_CSH_links.md" data-help-id="chapter:csh">What is CSH links?</a>
 
 ---------------------Rough content--------------------------------
 
