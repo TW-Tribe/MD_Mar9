@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240" role="img" aria-label="Context Sensitive Help flow diagram">
+  <style>
+    .box{fill:#f8fafc;stroke:#1f2937;stroke-width:1.5;}
+    .arrow{fill:none;stroke:#0f172a;stroke-width:2;marker-end:url(#a)}
+    .label{font:14px sans-serif;fill:#0f172a}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a" />
+    </marker>
+  </defs>
+  <rect x="20" y="30" width="160" height="60" rx="8" class="box"/>
+  <text x="100" y="65" class="label" text-anchor="middle">User Interface</text>
+
+  <rect x="220" y="30" width="200" height="60" rx="8" class="box"/>
+  <text x="320" y="65" class="label" text-anchor="middle">CSH Link / Button</text>
+
+  <rect x="460" y="30" width="240" height="60" rx="8" class="box"/>
+  <text x="580" y="50" class="label">Resolver (map id → content)</text>
+  <text x="580" y="68" class="label">API or lookup table</text>
+
+  <rect x="300" y="140" width="200" height="60" rx="8" class="box"/>
+  <text x="400" y="175" class="label" text-anchor="middle">Help Panel / Modal</text>
+
+  <path d="M180 60 L220 60" class="arrow" />
+  <path d="M420 60 L460 60" class="arrow" />
+  <path d="M560 90 L400 160" class="arrow" />
+  <path d="M320 200 L140 160" class="arrow" />
+
+  <text x="200" y="48" class="label">click</text>
+  <text x="500" y="48" class="label">resolve id</text>
+  <text x="480" y="128" class="label">open</text>
+  <text x="220" y="188" class="label">context-aware help</text>
+</svg>

@@ -1,5 +1,7 @@
 # What is CSH links?
 
+![CSH flow diagram](../../Images/CSH_flow.svg)
+
 ## Summary
 
 "CSH links" refers to Context‑Sensitive Help links — hyperlinks or UI hooks that open help content specifically relevant to the current screen, control, or user task. They let users get targeted assistance without searching a full help system.
