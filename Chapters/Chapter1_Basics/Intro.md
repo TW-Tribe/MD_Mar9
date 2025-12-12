@@ -58,8 +58,18 @@ WhatsApp (officially WhatsApp Messenger) is a free communication app which allow
 ![](/Images/Guj_Jun_14.png)
 
 
-<table class="table table-striped">
-<caption>Caption for this Table</caption>
+**Caption for this table**
+
+| Property | Description |
+|---|---|
+| Topic1 | Topic2 |
+| TopicA | TopicB |
+
+Details:
+
+- Topic1:
+	- Bullet item
+	- Bullet item
 <button data-help-id="chapter:intro" class="help-btn">Help about this lesson</button>
 
 # Introduction to Markdown
