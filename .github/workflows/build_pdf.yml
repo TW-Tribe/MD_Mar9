@@ -1,0 +1,28 @@
+name: Build PDF
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended
+
+      - name: Build PDF
+        run: |
+          pandoc Markdown_Quick_Start_Guide.md -o Markdown_Quick_Start_Guide.pdf --pdf-engine=xelatex
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Markdown_Quick_Start_Guide.pdf
+          path: Markdown_Quick_Start_Guide.pdf
