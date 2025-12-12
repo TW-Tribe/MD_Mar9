@@ -12,14 +12,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install pandoc and LaTeX
+      - name: Install pandoc and LaTeX (non-interactive)
+        env:
+          DEBIAN_FRONTEND: noninteractive
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-xetex \
+            texlive-fonts-recommended \
+            texlive-latex-recommended \
+            fonts-dejavu-core \
+            fontconfig
 
-      - name: Build PDF
+      - name: Build PDF (verbose)
         run: |
-          pandoc Markdown_Quick_Start_Guide.md -o Markdown_Quick_Start_Guide.pdf --pdf-engine=xelatex
+          pandoc --version
+          pandoc Markdown_Quick_Start_Guide.md -o Markdown_Quick_Start_Guide.pdf --pdf-engine=xelatex --verbose
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
